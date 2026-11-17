@@ -1,4 +1,4 @@
-# DemandSense
+
 # DemandSense 📊
 ### Seasonal Demand Forecasting for Event-Driven Perishable Goods
 

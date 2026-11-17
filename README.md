@@ -221,4 +221,3 @@ By incorporating historical demand, calendar patterns, wedding seasons, and fest
 
 ---
 
-**Developed as an academic MCA project.**

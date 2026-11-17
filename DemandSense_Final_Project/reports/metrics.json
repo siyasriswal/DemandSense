@@ -1,0 +1,133 @@
+{
+  "trained_at": "2026-11-15 12:18:26",
+  "test_days": 90,
+  "test_window": [
+    "2024-10-03",
+    "2024-12-31"
+  ],
+  "n_train": 12072,
+  "n_test": 1080,
+  "ladder": [
+    {
+      "model": "Naive: item average",
+      "mae": 34.06,
+      "mape": 74.45,
+      "improvement_pct": 0.0
+    },
+    {
+      "model": "Same day last year",
+      "mae": 15.97,
+      "mape": 23.42,
+      "note": "last-year value available for 100% of test days",
+      "improvement_pct": 53.1
+    },
+    {
+      "model": "XGBoost (wedding, festival, calendar features)",
+      "mae": 8.14,
+      "mape": 14.98,
+      "improvement_pct": 76.1
+    }
+  ],
+  "per_item": [
+    {
+      "item": "Apple",
+      "category": "Fruits",
+      "naive_mae": 18.16,
+      "model_mae": 5.13,
+      "model_mape": 7.47,
+      "improvement_pct": 71.8
+    },
+    {
+      "item": "Banana",
+      "category": "Fruits",
+      "naive_mae": 19.1,
+      "model_mae": 6.36,
+      "model_mape": 6.97,
+      "improvement_pct": 66.7
+    },
+    {
+      "item": "Jasmine",
+      "category": "Flowers",
+      "naive_mae": 28.87,
+      "model_mae": 5.53,
+      "model_mape": 8.97,
+      "improvement_pct": 80.8
+    },
+    {
+      "item": "Lotus",
+      "category": "Flowers",
+      "naive_mae": 3.3,
+      "model_mae": 2.12,
+      "model_mape": 15.26,
+      "improvement_pct": 35.8
+    },
+    {
+      "item": "Mango",
+      "category": "Fruits",
+      "naive_mae": 20.2,
+      "model_mae": 3.35,
+      "model_mape": 111.62,
+      "improvement_pct": 83.4
+    },
+    {
+      "item": "Marigold",
+      "category": "Flowers",
+      "naive_mae": 24.32,
+      "model_mae": 6.96,
+      "model_mape": 8.53,
+      "improvement_pct": 71.4
+    },
+    {
+      "item": "Onion",
+      "category": "Vegetables",
+      "naive_mae": 71.21,
+      "model_mae": 14.8,
+      "model_mape": 6.59,
+      "improvement_pct": 79.2
+    },
+    {
+      "item": "Paneer_Veg_Mix",
+      "category": "Vegetables",
+      "naive_mae": 55.4,
+      "model_mae": 11.96,
+      "model_mape": 8.85,
+      "improvement_pct": 78.4
+    },
+    {
+      "item": "Pomegranate",
+      "category": "Fruits",
+      "naive_mae": 10.47,
+      "model_mae": 4.19,
+      "model_mape": 8.53,
+      "improvement_pct": 60.0
+    },
+    {
+      "item": "Potato",
+      "category": "Vegetables",
+      "naive_mae": 58.54,
+      "model_mae": 17.24,
+      "model_mape": 8.39,
+      "improvement_pct": 70.6
+    },
+    {
+      "item": "Rose",
+      "category": "Flowers",
+      "naive_mae": 56.64,
+      "model_mae": 7.94,
+      "model_mape": 6.97,
+      "improvement_pct": 86.0
+    },
+    {
+      "item": "Tomato",
+      "category": "Vegetables",
+      "naive_mae": 42.54,
+      "model_mae": 12.04,
+      "model_mape": 7.37,
+      "improvement_pct": 71.7
+    }
+  ],
+  "xgb_mae": 8.14,
+  "xgb_mape": 14.98,
+  "baseline_mae": 34.06,
+  "skipped_items": []
+}

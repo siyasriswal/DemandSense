@@ -1,0 +1,2 @@
+# Only needed to re-run the Prophet comparison in notebooks/Phase2_DemandSense_Colab.ipynb
+prophet>=1.1

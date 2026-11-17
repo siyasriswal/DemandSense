@@ -1,0 +1,13 @@
+Item,Naive MAE,Best model MAE,Improvement
+Lotus,3.3,1.98,40%
+Mango,20.2,3.46,83%
+Pomegranate,10.47,4.36,58%
+Apple,18.16,5.06,72%
+Jasmine,28.87,5.51,81%
+Banana,19.1,6.36,67%
+Marigold,24.32,6.92,72%
+Rose,56.64,7.9,86%
+Tomato,42.54,12.15,71%
+Paneer_Veg_Mix,55.4,12.28,78%
+Onion,71.21,14.35,80%
+Potato,58.54,17.25,71%

@@ -1,0 +1,8 @@
+Model,MAE (kg),MAPE (%),Forecast type,MAE improvement vs Step 1
+1. Naive: item average,34.06,74.45,90 days ahead,0.0%
+2. Same day last year,15.97,23.42,90 days ahead,53.1%
+3. Prophet (dates only),13.51,20.71,90 days ahead,60.3%
+4. Prophet + wedding & festival regressors,8.43,15.36,90 days ahead,75.2%
+5. XGBoost (default settings),8.13,15.11,90 days ahead,76.1%
+6. XGBoost (tuned with TimeSeriesSplit),8.15,14.56,90 days ahead,76.1%
+7. XGBoost + lags (next-day only),8.08,11.59,1 day ahead,76.3%
